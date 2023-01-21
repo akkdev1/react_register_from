@@ -71,7 +71,7 @@ const Register = () => {
             setErrMsg("Invalid Entry");
             return;
         }
-        console.log(user.pwd)
+        console.log(user, pwd)
         setSuccess(true)
 
 
